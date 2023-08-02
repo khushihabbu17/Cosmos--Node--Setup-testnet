@@ -1,6 +1,5 @@
 # Cosmos--Node--Setup-testnet
-basic introduction and knowledge on cosmos-sdk/network . A task given to set up a cosmos node on their public network and thus learning about a new platform and implementing the things learnt and showcase it in the best way possible 
-
+basic introduction and knowledge on cosmos-sdk/network . A task given to set up a cosmos node on their public network and thus learning about a new platform and implementing the things learnt and showcase it in the best way possible i have used in my own ubuntu-oracle vm 
 providing the necessary instructions for logging into the live public testnet.
 we would be discussing the set up of node in testnet in one of three different ways: 
 
@@ -197,6 +196,7 @@ cp ~/go/bin/gaiad ~/.gaia/cosmovisor/upgrades/v11/bin/gaiad
 
 The gaiad binary will be stopped when the upgrade height is achieved by Cosmovisor, which will then restart after copying the new binary to the current/bin folder. The node should begin syncing blocks with the updated binary within a short period of time.
 
+this  is for setting up node now further we can upgrade the node and interact with cli as per given and keep making changes
 
 
 
